@@ -1,9 +1,10 @@
+```
  _   _ _____ _     _      ___    __        __ ___  ____  _     ____  
 | | | | ____| |   | |    / _ \   \ \      / // _ \|  _ \| |   |  _ \ 
 | |_| |  _| | |   | |   | | | |   \ \ /\ / /| | | | |_) | |   | | | |
 |  _  | |___| |___| |___| |_| |    \ V  V / | |_| |  _ <| |___| |_| |
 |_| |_|_____|_____|_____|\___/      \_/\_/   \___/|_| \_|_____|____/ 
-
+```
 # Figlet Converter
 
 This project converts text into a styled format using a custom `convert` function inspired by the `figlet` tool. The project includes two main files: `figlet.py` for the conversion logic and `main.py` for executing the conversion via command-line input.

@@ -29,13 +29,13 @@ This project converts text into a styled format using a custom `convert` functio
 To convert text using the command line:
 
 ```bash
-python3 main.py "Your Text Here"
+python3 main.py "your text here"
 ```
 
 ### Example
 
 ```bash
-python3 main.py "Hello World"
+python3 main.py "hello world"
 ```
 
 This command will output the styled version of "Hello World" in your terminal.

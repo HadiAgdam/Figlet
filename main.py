@@ -8,4 +8,4 @@ if __name__ == "__main__":
         sys.exit(1)
 
     text = " ".join(sys.argv[1:])  # Join all arguments after the script name as the text input
-    print(convert(text.lower()))
+    print(convert(text))

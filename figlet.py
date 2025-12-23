@@ -3,9 +3,13 @@ f = open("chars.txt")
 f = f.read().split("n\n")
 
 d = {}
-chars = "abcdefghijklmnopqrstuvwxyz0123456789"
+chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz"
 for i in range(0, len(chars)):
     d[chars[i]] = f[i]
+    # print(chars[i])
+    # print(f[i])
+
+
 
 
 def convert(text: str) -> str:
@@ -28,7 +32,13 @@ def convert(text: str) -> str:
                 if j != len(text) - 1:
                     if text[j + 1] == " ":
                         c = c1
-                    else: c2 = d[text[j + 1]].splitlines()[i][0]
+                    else: 
+                        try:
+                            c2 = d[text[j + 1]].splitlines()[i][0]
+                        except Exception as ex:
+                            print(text[j + 1])
+                            input("error")
+                            print(ex)
                 else: c2 = " "
 
                 if c2 != " ":
